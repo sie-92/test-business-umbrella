@@ -10,6 +10,8 @@ class Country extends Model
 
     protected $fillable = ['name'];
 
+    public $timestamps = false;
+
     //Company is related to just one Country
     public function companies()
     {

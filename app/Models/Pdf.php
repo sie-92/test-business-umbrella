@@ -9,4 +9,6 @@ class Pdf extends Model
     protected $table = 'pdf';
 
     protected $fillable = ['name','size','file'];
+
+    public $timestamps = false;
 }

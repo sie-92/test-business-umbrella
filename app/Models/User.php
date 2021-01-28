@@ -12,6 +12,8 @@ class User extends Model
     protected $table = 'users';
     
     protected $fillable = ['name'];
+
+    public $timestamps = false;
     
     public function companies()
     {
